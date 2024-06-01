@@ -180,8 +180,8 @@ body {
       right: 0;
       top: 2rem; }
     .composition__photo--p3 {
-      left: 20%;
-      top: 15rem; }
+      left: 10%;
+      top: 10rem; }
     .composition__photo:hover {
       outline: 0.5rem solid #55c57a;
       transform: scale(1.2);
