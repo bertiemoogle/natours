@@ -1,7 +1,7 @@
 .composition {
   position: relative;
   &__photo {
-    width: 55%;
+    width: 60%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
@@ -21,7 +21,7 @@
 
     &--p3 {
       left: 20%;
-      top: 10rem;
+      top: 15rem;
     }
 
     &:hover {
@@ -30,5 +30,9 @@
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20;
     }
+  }
+
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.8);
   }
 }
